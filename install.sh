@@ -26,14 +26,14 @@
 # from http://hintsforums.macworld.com/archive/index.php/t-73839.html
 abspath=`dirname $(cd "${0%/*}" 2>/dev/null; echo "$PWD"/"${0##*/}")`
 
-cat > ~/.config/autostart/ <<EOF
+cat > ~/.config/autostart/disper-applet.desktop <<EOF
 [Desktop Entry]
 Type=Application
 Exec=$abspath/disper-applet.py
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
-Name=
+Name=Disper
 EOF
 
 
