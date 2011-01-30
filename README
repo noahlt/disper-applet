@@ -1,0 +1,9 @@
+disper-applet.py - an App Indicator (for GNOME and KDE) that acts as
+a GUI front-end to Willem van Engen's Disper, which can be found at
+<http://willem.engen.nl/projects/disper/>.
+
+To use disper-applet.py, first install Disper from the above URL.
+Then run install.sh, which should have come in the same directory as
+this file.  Note that this installer will not copy disper-applet.py
+anywhere, it simply adds disper-applet.py (wherever it currently
+lives) to GNOME's startup programs.
